@@ -1,0 +1,7 @@
+com\googlecloud\testing\commands\CommandResult.class
+com\googlecloud\testing\validators\SignUrlValidator.class
+com\Main.class
+com\googlecloud\testing\commands\StorageCommandExecutor.class
+com\googlecloud\testing\utils\ConfigLoader.class
+com\googlecloud\testing\utils\TestUtils.class
+com\googlecloud\testing\validators\ResponseValidator.class

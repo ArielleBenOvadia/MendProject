@@ -1,0 +1,13 @@
+﻿steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io//gcloud-test-runner', '.']
+  
+- name: 'gcr.io//gcloud-test-runner'
+  entrypoint: 'bash'
+  args:
+  - '-c'
+  - |
+    echo "Running tests in Google Cloud Build..."
+    mvn clean test
+    
+timeout: 3600s

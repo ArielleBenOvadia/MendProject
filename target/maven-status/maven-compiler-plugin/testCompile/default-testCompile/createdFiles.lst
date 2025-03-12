@@ -1,0 +1,6 @@
+com\googlecloud\testing\commands\ListCommandTest.class
+com\googlecloud\testing\commands\SignUrlCommandTest.class
+com\googlecloud\testing\commands\CopyCommandTest.class
+com\googlecloud\testing\commands\RemoveCommandTest.class
+com\googlecloud\testing\BaseTest.class
+com\googlecloud\testing\commands\CreateBucketCommandTest.class

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  test:
+    build: .
+    volumes:
+      - ~/.config/gcloud:/root/.config/gcloud
+      # Uncomment to use service account key file
+      # - ./service-account-key.json:/gcloud-key/key.json
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/root/.config/gcloud/application_default_credentials.json
+    # Use mock mode if preferred
+    # command: ["-Duse.mock=true", "mvn", "clean", "test"]
+
+  # You can also run in mock mode without needing credentials
+  test-mock:
+    build: .
+    volumes:
+      # No credentials needed for mock mode
+      - ./src:/app/src   # Mount src for easier development
+    command: ["mvn", "clean", "test", "-Dtest=mock.*"]  # You can define mock tests

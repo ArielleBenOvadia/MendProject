@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="136.194" tests="15" errors="0" skipped="4" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ariel\leetCodde questions\mendTest\target\test-classes;C:\Users\ariel\leetCodde questions\mendTest\target\classes;C:\Users\ariel\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ariel\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ariel\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\playwright\1.28.1\playwright-1.28.1.jar;C:\Users\ariel\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ariel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\driver\1.28.1\driver-1.28.1.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\driver-bundle\1.28.1\driver-bundle-1.28.1.jar;C:\Users\ariel\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\ariel\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ariel\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\ariel\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jerusalem"/>
+    <property name="user.country.format" value="IL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ariel\AppData\Local\Temp\surefire7818482299581802550\surefirebooter-20250312195359492_3.jar C:\Users\ariel\AppData\Local\Temp\surefire7818482299581802550 2025-03-12T19-53-59_014-jvmRun1 surefire-20250312195359492_1tmp surefire_0-20250312195359492_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\ariel\leetCodde questions\mendTest\target\test-classes;C:\Users\ariel\leetCodde questions\mendTest\target\classes;C:\Users\ariel\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\ariel\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ariel\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\playwright\1.28.1\playwright-1.28.1.jar;C:\Users\ariel\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\ariel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\driver\1.28.1\driver-1.28.1.jar;C:\Users\ariel\.m2\repository\com\microsoft\playwright\driver-bundle\1.28.1\driver-bundle-1.28.1.jar;C:\Users\ariel\.m2\repository\org\assertj\assertj-core\3.22.0\assertj-core-3.22.0.jar;C:\Users\ariel\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ariel\.m2\repository\org\slf4j\slf4j-simple\1.7.36\slf4j-simple-1.7.36.jar;C:\Users\ariel\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ariel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+    <property name="basedir" value="C:\Users\ariel\leetCodde questions\mendTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ariel\AppData\Local\Temp\surefire7818482299581802550\surefirebooter-20250312195359492_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_351\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_351\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="user.name" value="ariel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ariel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ariel\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="user.dir" value="C:\Users\ariel\leetCodde questions\mendTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ariel\Downloads\mongosh-2.1.1-win32-x64.zip\mongosh-2.1.1-win32-x64\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.9\bin;C:\Users\ariel\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ariel\AppData\Local\Programs\Python\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ariel\Downloads\mongosh-2.1.1-win32-x64.zip\mongosh-2.1.1-win32-x64\bin;C:\Users\ariel\AppData\Local\Programs\Python\Launcher\;C:\Users\ariel\AppData\Local\Microsoft\WindowsApps;C:\Users\ariel\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;C:\Program Files\Java\jdk1.8.0_351\bin;C:\Users\ariel\OneDrive\Important\Documents;C:\Users\ariel\AppData\Lo;C:\Users\ariel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ariel\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCreateBucket" classname="com.googlecloud.testing.commands.CreateBucketCommandTest" time="0">
+    <skipped message="Skipping due to lack of bucket creation permissions"/>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+]]></system-out>
+    <system-err><![CDATA[Mar 12, 2025 7:54:01 PM com.googlecloud.testing.utils.ConfigLoader getProperties
+INFO: Configuration loaded successfully
+Mar 12, 2025 7:54:01 PM com.googlecloud.testing.utils.ConfigLoader getTestBucketName
+INFO: Using bucket name from config: gcloud-cli-test-bucket-1234
+Mar 12, 2025 7:54:01 PM com.googlecloud.testing.BaseTest suiteSetup
+INFO: Setting up test suite
+Mar 12, 2025 7:54:01 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage --help
+Mar 12, 2025 7:54:03 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:03 PM com.googlecloud.testing.BaseTest suiteSetup
+INFO: Using test bucket: gcloud-cli-test-bucket-1234
+Mar 12, 2025 7:54:03 PM com.googlecloud.testing.BaseTest suiteSetup
+INFO: Using project ID: mend-project-arielle-123
+Mar 12, 2025 7:54:03 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:06 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:06 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-file-1741802046241.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.BaseTest createTestFile
+INFO: Test file uploaded successfully
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-1.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.commands.CopyCommandTest setUp
+INFO: Created local source file: C:\Users\ariel\leetCodde questions\mendTest\test-cp-source-1741802053392.txt
+Mar 12, 2025 7:54:13 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-cp-source-1741802053392.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateBucketWithInvalidName" classname="com.googlecloud.testing.commands.CreateBucketCommandTest" time="0">
+    <skipped message="Skipping due to lack of bucket creation permissions"/>
+  </testcase>
+  <testcase name="testCreateBucketWithLocation" classname="com.googlecloud.testing.commands.CreateBucketCommandTest" time="0">
+    <skipped message="Skipping due to lack of bucket creation permissions"/>
+  </testcase>
+  <testcase name="testCreateExistingBucket" classname="com.googlecloud.testing.commands.CreateBucketCommandTest" time="0">
+    <skipped message="Skipping due to lack of bucket creation permissions"/>
+  </testcase>
+  <testcase name="testSignUrlGeneratesValidUrl" classname="com.googlecloud.testing.commands.SignUrlCommandTest" time="0.895">
+    <system-err><![CDATA[Mar 12, 2025 7:54:17 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:17 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-sign-url.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:24 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:24 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-2.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:25 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:25 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp gs://gcloud-cli-test-bucket-1234/test-cp-source-1741802053392.txt gs://gcloud-cli-test-bucket-1234/test-cp-dest-1741802053392.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:54:28 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:28 PM com.googlecloud.testing.commands.SignUrlCommandTest setUp
+INFO: Test file for sign-url uploaded successfully
+Mar 12, 2025 7:54:28 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:33 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:33 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage sign-url gs://gcloud-cli-test-bucket-1234/test-sign-url.txt --duration=1h --region=us-central1 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:37 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:37 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls --project=mend-project-arielle-123
+Mar 12, 2025 7:54:37 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:37 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234/test-cp-source-1741802053392.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:54:38 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 1
+Mar 12, 2025 7:54:38 PM com.googlecloud.testing.commands.SignUrlCommandTest testSignUrlGeneratesValidUrl
+INFO: Skipping sign-url validation as it requires a service account
+]]></system-err>
+  </testcase>
+  <testcase name="testSignUrlWithDifferentDurations" classname="com.googlecloud.testing.commands.SignUrlCommandTest" time="7.672">
+    <system-err><![CDATA[Mar 12, 2025 7:54:47 PM com.googlecloud.testing.commands.CopyCommandTest setUp
+INFO: Created local source file: C:\Users\ariel\leetCodde questions\mendTest\test-cp-source-1741802087394.txt
+Mar 12, 2025 7:54:47 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-cp-source-1741802087394.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:53 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:53 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-2.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:54 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:54 PM com.googlecloud.testing.commands.SignUrlCommandTest setUp
+INFO: Test file for sign-url uploaded successfully
+Mar 12, 2025 7:54:54 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:58 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:58 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp gs://gcloud-cli-test-bucket-1234/test-cp-source-1741802087394.txt test-cp-dest-1741802087394.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:54:58 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:58 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage sign-url gs://gcloud-cli-test-bucket-1234/test-sign-url.txt --duration=5s --region=us-central1 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:02 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 1
+Mar 12, 2025 7:55:02 PM com.googlecloud.testing.commands.SignUrlCommandTest testSignUrlWithDifferentDurations
+INFO: Skipping sign-url validation as it requires a service account
+]]></system-err>
+  </testcase>
+  <testcase name="testSignUrlWithInvalidParameters" classname="com.googlecloud.testing.commands.SignUrlCommandTest" time="3.508">
+    <system-err><![CDATA[Mar 12, 2025 7:55:08 PM com.googlecloud.testing.commands.CopyCommandTest setUp
+INFO: Created local source file: C:\Users\ariel\leetCodde questions\mendTest\test-cp-source-1741802108781.txt
+Mar 12, 2025 7:55:08 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-cp-source-1741802108781.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:16 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:16 PM com.googlecloud.testing.commands.SignUrlCommandTest setUp
+INFO: Test file for sign-url uploaded successfully
+Mar 12, 2025 7:55:16 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage sign-url gs://gcloud-cli-test-bucket-1234/non-existent-file.txt --duration=1h --region=us-central1 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:18 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:18 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-2.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:19 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:19 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234/test-cp-source-1741802108781.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:55:19 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 1
+Mar 12, 2025 7:55:19 PM com.googlecloud.testing.commands.SignUrlCommandTest testSignUrlWithInvalidParameters
+INFO: Error message for invalid file: ERROR: (gcloud.storage.sign-url) This command requires a service account to sign a URL. Please authenticate with a service account, or provide the global '--impersonate-service-account' flag.
+]]></system-err>
+  </testcase>
+  <testcase name="testListBuckets" classname="com.googlecloud.testing.commands.ListCommandTest" time="5.086">
+    <system-err><![CDATA[Mar 12, 2025 7:54:38 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testListFilesInBucket" classname="com.googlecloud.testing.commands.ListCommandTest" time="3.98">
+    <system-err><![CDATA[Mar 12, 2025 7:55:02 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:04 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:04 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:06 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:06 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-sign-url.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:08 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testListWithLongFormat" classname="com.googlecloud.testing.commands.ListCommandTest" time="10.196">
+    <system-err><![CDATA[Mar 12, 2025 7:55:22 PM com.googlecloud.testing.commands.CopyCommandTest setUp
+INFO: Created local source file: C:\Users\ariel\leetCodde questions\mendTest\test-cp-source-1741802122296.txt
+Mar 12, 2025 7:55:22 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp -r subdir-1741802122299 gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:26 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:26 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls -l gs://gcloud-cli-test-bucket-1234 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:36 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testListWithPattern" classname="com.googlecloud.testing.commands.ListCommandTest" time="4.804">
+    <system-err><![CDATA[Mar 12, 2025 7:55:47 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:47 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-2.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:53 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:53 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234/test-ls-*.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:55:56 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:56 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234/test-ls-1*.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:55:58 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyCloudToCloud" classname="com.googlecloud.testing.commands.CopyCommandTest" time="10.27">
+    <system-err><![CDATA[Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-1.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls gs://gcloud-cli-test-bucket-1234/test-cp-dest-1741802053392.txt --project=mend-project-arielle-123
+Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:54:42 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-sign-url.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:54:47 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyCloudToLocal" classname="com.googlecloud.testing.commands.CopyCommandTest" time="4.37">
+    <system-err><![CDATA[Mar 12, 2025 7:55:08 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-1.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:08 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyLocalToCloud" classname="com.googlecloud.testing.commands.CopyCommandTest" time="6.213">
+    <system-err><![CDATA[Mar 12, 2025 7:55:22 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+  <testcase name="testCopyWithRecursiveFlag" classname="com.googlecloud.testing.commands.CopyCommandTest" time="18.547">
+    <system-err><![CDATA[Mar 12, 2025 7:55:36 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage cp test-ls-1.txt gs://gcloud-cli-test-bucket-1234/ --project=mend-project-arielle-123
+Mar 12, 2025 7:55:41 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+Mar 12, 2025 7:55:41 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Executing command: gcloud storage ls -r gs://gcloud-cli-test-bucket-1234/subdir-1741802122299 --project=mend-project-arielle-123
+Mar 12, 2025 7:55:45 PM com.googlecloud.testing.commands.StorageCommandExecutor executeCommand
+INFO: Command completed with exit code: 0
+]]></system-err>
+  </testcase>
+</testsuite>

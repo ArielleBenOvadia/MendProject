@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Google Cloud Storage CLI Tests</th></tr>
+<tr><td><a href="#t0">Command Tests</a></td><td class="num">11</td><td class="num attn">4</td><td class="num">0</td><td class="num">105,329</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Google Cloud Storage CLI Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command Tests &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.googlecloud.testing.commands.CreateBucketCommandTest</td><td><a href="#m0">testCreateBucket</a></td><td rowspan="1">1741802053392</td><td rowspan="1">5</td></tr><tr class="skippedeven"><td><a href="#m1">testCreateBucketWithInvalidName</a></td><td rowspan="1">1741802053399</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m2">testCreateBucketWithLocation</a></td><td rowspan="1">1741802053402</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m3">testCreateExistingBucket</a></td><td rowspan="1">1741802053403</td><td rowspan="1">2</td></tr><tr><th colspan="4">Command Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.googlecloud.testing.commands.CopyCommandTest</td><td><a href="#m4">testCopyCloudToCloud</a></td><td rowspan="1">1741802053395</td><td rowspan="1">33997</td></tr><tr class="passedeven"><td><a href="#m5">testCopyCloudToLocal</a></td><td rowspan="1">1741802087396</td><td rowspan="1">21385</td></tr><tr class="passedeven"><td><a href="#m6">testCopyLocalToCloud</a></td><td rowspan="1">1741802108783</td><td rowspan="1">13513</td></tr><tr class="passedeven"><td><a href="#m7">testCopyWithRecursiveFlag</a></td><td rowspan="1">1741802122298</td><td rowspan="1">23029</td></tr><tr class="passedodd"><td rowspan="4">com.googlecloud.testing.commands.ListCommandTest</td><td><a href="#m8">testListBuckets</a></td><td rowspan="1">1741802077124</td><td rowspan="1">5086</td></tr><tr class="passedodd"><td><a href="#m9">testListFilesInBucket</a></td><td rowspan="1">1741802104410</td><td rowspan="1">3981</td></tr><tr class="passedodd"><td><a href="#m10">testListWithLongFormat</a></td><td rowspan="1">1741802126780</td><td rowspan="1">10191</td></tr><tr class="passedodd"><td><a href="#m11">testListWithPattern</a></td><td rowspan="1">1741802153886</td><td rowspan="1">4804</td></tr><tr class="passedeven"><td rowspan="3">com.googlecloud.testing.commands.SignUrlCommandTest</td><td><a href="#m12">testSignUrlGeneratesValidUrl</a></td><td rowspan="1">1741802068983</td><td rowspan="1">9033</td></tr><tr class="passedeven"><td><a href="#m13">testSignUrlWithDifferentDurations</a></td><td rowspan="1">1741802094678</td><td rowspan="1">7671</td></tr><tr class="passedeven"><td><a href="#m14">testSignUrlWithInvalidParameters</a></td><td rowspan="1">1741802116082</td><td rowspan="1">3509</td></tr></tbody>
+</table>
+<h2>Command Tests</h2><h3 id="m0">com.googlecloud.testing.commands.CreateBucketCommandTest#testCreateBucket</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping due to lack of bucket creation permissions
+	at com.googlecloud.testing.commands.CreateBucketCommandTest.testCreateBucket(CreateBucketCommandTest.java:19)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.googlecloud.testing.commands.CreateBucketCommandTest#testCreateBucketWithInvalidName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping due to lack of bucket creation permissions
+	at com.googlecloud.testing.commands.CreateBucketCommandTest.testCreateBucketWithInvalidName(CreateBucketCommandTest.java:71)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.googlecloud.testing.commands.CreateBucketCommandTest#testCreateBucketWithLocation</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping due to lack of bucket creation permissions
+	at com.googlecloud.testing.commands.CreateBucketCommandTest.testCreateBucketWithLocation(CreateBucketCommandTest.java:53)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.googlecloud.testing.commands.CreateBucketCommandTest#testCreateExistingBucket</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping due to lack of bucket creation permissions
+	at com.googlecloud.testing.commands.CreateBucketCommandTest.testCreateExistingBucket(CreateBucketCommandTest.java:62)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+... Removed 10 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.googlecloud.testing.commands.CopyCommandTest#testCopyCloudToCloud</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.googlecloud.testing.commands.CopyCommandTest#testCopyCloudToLocal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.googlecloud.testing.commands.CopyCommandTest#testCopyLocalToCloud</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.googlecloud.testing.commands.CopyCommandTest#testCopyWithRecursiveFlag</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.googlecloud.testing.commands.ListCommandTest#testListBuckets</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.googlecloud.testing.commands.ListCommandTest#testListFilesInBucket</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.googlecloud.testing.commands.ListCommandTest#testListWithLongFormat</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.googlecloud.testing.commands.ListCommandTest#testListWithPattern</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.googlecloud.testing.commands.SignUrlCommandTest#testSignUrlGeneratesValidUrl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.googlecloud.testing.commands.SignUrlCommandTest#testSignUrlWithDifferentDurations</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.googlecloud.testing.commands.SignUrlCommandTest#testSignUrlWithInvalidParameters</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

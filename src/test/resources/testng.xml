@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Google Cloud Storage CLI Tests" parallel="classes" thread-count="4">
+    <test name="Command Tests">
+        <classes>
+            <class name="com.googlecloud.testing.commands.SignUrlCommandTest"/>
+            <class name="com.googlecloud.testing.commands.ListCommandTest"/>
+            <class name="com.googlecloud.testing.commands.CopyCommandTest"/>
+            <class name="com.googlecloud.testing.commands.RemoveCommandTest"/>
+        </classes>
+    </test>
+</suite>
